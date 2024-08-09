@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Auto Tab Closer",
+    "version": "1.1",
+    "description": "Automatically closes the least used and duplicate tabs based on user settings.",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "options_page": "options.html"
+  }
+  
